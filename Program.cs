@@ -18,7 +18,7 @@ namespace TecieFacebook
             int i;
             Thread[]? servers = new Thread[numThreads];
 
-            Console.WriteLine("\n*** Tecie Telegram ***\n");
+            Console.WriteLine("\n*** Tecie Facebook ***\n");
             Console.WriteLine("Server started, waiting for client connect...\n");
             for (i = 0; i < numThreads; i++)
             {
